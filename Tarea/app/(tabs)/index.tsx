@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function culo() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.tareamensaje}>Bienvenidos a la tarea de semana #2</Text>

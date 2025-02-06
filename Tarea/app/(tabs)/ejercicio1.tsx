@@ -60,7 +60,6 @@ const mostrarMensaje = () => {
       Alert.alert('Error', 'Por favor, ingresa una edad solo en numeros.');
       return;
     }
-
     Alert.alert('Mensaje', `Hola, ${nombre}. Tienes ${edad} años.`);
   };
 
