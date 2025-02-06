@@ -34,9 +34,33 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="ejercicio1"
         options={{
-          title: 'Explore',
+          title: 'Ejercicio #1',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+
+<Tabs.Screen
+        name="ejercicio2"
+        options={{
+          title: 'Ejercicio #2',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+
+<Tabs.Screen
+        name="ejercicio3"
+        options={{
+          title: 'Ejercicio #3',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        }}
+      />
+
+<Tabs.Screen
+        name="ejercicio4"
+        options={{
+          title: 'Ejercicio #4',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />

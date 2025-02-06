@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1, 
-    justifyContent: 'center',
+    marginTop: 30,
     alignItems: 'center',
     backgroundColor: 'white',
   },
@@ -14,10 +14,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function culo() {
+export default function ejercicio3() {
   return (
     <View style={styles.container}>
-      <Text style={styles.tareamensaje}>Bienvenidos a la tarea de semana #2</Text>
+      <Text style={styles.tareamensaje}>Ejercicio #3</Text>
     </View>
   );
 }
